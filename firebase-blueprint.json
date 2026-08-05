@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "chat_session": {
+      "title": "Chat Session",
+      "description": "User conversation sessions",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId", "title", "createdAt", "updatedAt"]
+    },
+    "chat_message": {
+      "title": "Chat Message",
+      "description": "Individual messages in a chat session",
+      "type": "object",
+      "properties": {
+        "sessionId": { "type": "string" },
+        "userId": { "type": "string" },
+        "role": { "type": "string" },
+        "content": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "provider": { "type": "string" }
+      },
+      "required": ["sessionId", "userId", "role", "content", "timestamp"]
+    }
+  }
+}

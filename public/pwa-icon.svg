@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#141416"/>
+  <circle cx="256" cy="256" r="180" fill="url(#grad)" opacity="0.15"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4d6bfe"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+  <!-- Central Sparkle / Brain Icon -->
+  <path d="M256 120 C270 180, 330 240, 392 256 C330 272, 270 332, 256 392 C242 332, 182 272, 120 256 C182 240, 242 180, 256 120 Z" fill="url(#grad)"/>
+  <circle cx="256" cy="256" r="28" fill="#ffffff"/>
+</svg>

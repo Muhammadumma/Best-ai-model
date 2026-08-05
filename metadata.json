@@ -1,0 +1,6 @@
+{
+  "name": "Muhammad AI",
+  "description": "An intelligent, polite, and responsive AI chatbot named Muhammad AI, built with React.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
